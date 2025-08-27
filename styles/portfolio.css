@@ -19,6 +19,12 @@
 .dark-3 {
   color: #757575;
 }
+.primary-bg {
+  background-color: #ffffff;
+}
+.secondary-bg {
+  background-color: #fff8f3;
+}
 .btn-primary {
   background-color: #fd6e0a;
   font-weight: 700;
@@ -27,6 +33,16 @@
   padding: 18px 35px;
   border-radius: 5px;
   border: none;
+}
+.section-title {
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
+}
+.section-description {
+  font-size: 18px;
+  font-weight: 400;
+  color: #757575;
 }
 /* Background image */
 .header {
@@ -81,4 +97,34 @@ nav li a {
 }
 .banner-image {
   width: 580px;
+}
+/* Main styles */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+/* About styles */
+.about {
+  border-radius: 10px;
+  padding: 130px 150px;
+  text-align: center;
+  margin-top: 130px;
+}
+.details {
+  padding: 0 5px;
+  border: 1px solid #000000;
+}
+.about-items {
+  display: flex;
+  justify-content: space-around;
+}
+.item-title {
+  color: #757575;
+  font-weight: 400;
+  font-size: 20px;
+}
+.item-description {
+  color: #474747;
+  font-weight: bold;
+  font-size: 20px;
 }

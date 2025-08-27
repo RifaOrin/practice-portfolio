@@ -38,6 +38,15 @@ body {
   border-radius: 5px;
   border: none;
 }
+.btn-secondary {
+  background-color: transparent;
+  font-weight: 700;
+  font-size: 20px;
+  color: #fd6e0a;
+  padding: 18px 24px;
+  border-radius: 5px;
+  border: 1px solid #fd6e0a;
+}
 .section-title {
   font-size: 35px;
   font-weight: bold;
@@ -94,13 +103,21 @@ nav li a {
 .banner-greetings {
   font-weight: 600;
   font-size: 45px;
+  margin-bottom: 5px;
 }
 .banner-title {
   font-weight: 700;
   font-size: 85px;
+  margin-top: 0px;
+  margin-bottom: 20px;
 }
 .banner-description {
   font-size: 18;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+.btn-contact {
+  margin-left: 30px;
 }
 .banner-image {
   width: 580px;

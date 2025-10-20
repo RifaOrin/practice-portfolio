@@ -256,14 +256,14 @@ textarea {
   .skill-container,
   .resume-container,
   .contact,
-  .about-items {
+  .about-items,
+  .banner {
     flex-direction: column;
   }
   nav > ul {
     gap: 20px;
   }
   .banner {
-    flex-direction: column-reverse;
     margin: 20px;
   }
   .header {
@@ -295,5 +295,12 @@ textarea {
   }
   .skills > p {
     text-align: justify;
+  }
+}
+
+/* Tablet specific media query */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .banner {
+    flex-direction: column;
   }
 }

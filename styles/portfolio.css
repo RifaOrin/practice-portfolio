@@ -248,3 +248,52 @@ textarea {
   height: 24px;
   width: 24px;
 }
+
+/* Responsive Media Query */
+@media screen and (max-width: 576px) {
+  nav,
+  nav > ul,
+  .skill-container,
+  .resume-container,
+  .contact,
+  .about-items {
+    flex-direction: column;
+  }
+  nav > ul {
+    gap: 20px;
+  }
+  .banner {
+    flex-direction: column-reverse;
+    margin: 20px;
+  }
+  .header {
+    background-image: none;
+  }
+  .banner-image {
+    width: 100%;
+  }
+  .contact,
+  .about,
+  .resume-column,
+  .skills > p {
+    padding: 20px;
+  }
+  .btn-primary {
+    margin-bottom: 20px;
+  }
+  .btn-contact {
+    margin-left: 0px;
+    margin-bottom: 20px;
+  }
+  .contact-column {
+    width: 100%;
+  }
+  .form input[type="text"],
+  .form input[type="email"],
+  textarea {
+    width: calc(100% - 60px);
+  }
+  .skills > p {
+    text-align: justify;
+  }
+}
